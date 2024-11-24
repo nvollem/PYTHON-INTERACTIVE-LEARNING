@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intake Form - Python Interactive Learning</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="container">
+            <h1>PYTHON INTERACTIVE LEARNING</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#contact" class="btn contact-btn">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Intake Form Section -->
+    <section class="intake-form-section">
+        <div class="container">
+            <h2 class="form-title">INTAKE FORM</h2>
+            <h3 class="form-subtitle">Help us serve you better</h3>
+            <form action="#" class="intake-form">
+                
+                <label for="name">Name <span>*</span></label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email address <span>*</span></label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="skill-level">What is your current skill level in Python?</label>
+                <select id="skill-level" name="skill-level" required>
+                    <option value="" disabled selected>Select</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+
+                <label>What topics are you interested in learning?</label>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="basic-syntax" name="topics" value="Basic Syntax">
+                    <label for="basic-syntax">Basic Syntax</label><br>
+                    
+                    <input type="checkbox" id="data-structures" name="topics" value="Data Structures">
+                    <label for="data-structures">Data Structures</label><br>
+                    
+                    <input type="checkbox" id="web-development" name="topics" value="Web Development">
+                    <label for="web-development">Web Development</label><br>
+                    
+                    <input type="checkbox" id="data-analysis" name="topics" value="Data Analysis">
+                    <label for="data-analysis">Data Analysis</label><br>
+                    
+                    <input type="checkbox" id="machine-learning" name="topics" value="Machine Learning">
+                    <label for="machine-learning">Machine Learning</label><br>
+                    
+                    <input type="checkbox" id="game-development" name="topics" value="Game Development">
+                    <label for="game-development">Game Development</label><br>
+                    
+                    <input type="checkbox" id="automation" name="topics" value="Automation">
+                    <label for="automation">Automation</label>
+                </div>
+
+                <label for="how-hear">How did you hear about us?</label>
+                <select id="how-hear" name="how-hear">
+                    <option value="" disabled selected>Select</option>
+                    <option value="internet-search">Internet Search</option>
+                    <option value="social-media">Social Media</option>
+                    <option value="word-of-mouth">Word of Mouth</option>
+                    <option value="advertisement">Advertisement</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label>What is your preferred learning style?</label>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="visual" name="learning-style" value="Visual">
+                    <label for="visual">Visual</label><br>
+                    
+                    <input type="checkbox" id="auditory" name="learning-style" value="Auditory">
+                    <label for="auditory">Auditory</label><br>
+                    
+                    <input type="checkbox" id="kinesthetic" name="learning-style" value="Kinesthetic">
+                    <label for="kinesthetic">Kinesthetic</label><br>
+                    
+                    <input type="checkbox" id="reading-writing" name="learning-style" value="Reading/Writing">
+                    <label for="reading-writing">Reading/Writing</label>
+                </div>
+
+                <label for="goal">What is your primary goal for learning Python?</label>
+                <select id="goal" name="goal">
+                    <option value="" disabled selected>Select</option>
+                    <option value="career-change">Career Change</option>
+                    <option value="upskilling">Upskilling</option>
+                    <option value="hobby">Hobby</option>
+                    <option value="academic">Academic Purposes</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label>What is your availability for the course?</label>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="weekdays" name="availability" value="Weekdays">
+                    <label for="weekdays">Weekdays</label><br>
+                    
+                    <input type="checkbox" id="weekends" name="availability" value="Weekends">
+                    <label for="weekends">Weekends</label><br>
+                    
+                    <input type="checkbox" id="evenings" name="availability" value="Evenings">
+                    <label for="evenings">Evenings</label>
+                </div>
+
+                <button type="submit" class="submit-button">SUBMIT</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <nav>
+                <ul>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="schedule-appointment.html">Schedule Appointment</a></li>
+                    <li><a href="intake-form.html">Complete Intake</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
